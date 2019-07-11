@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".OkActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp">
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/wedding_ring"
+                android:layout_gravity="center"
+        />
+        <TextView
+                android:text="Interested"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimaryDark"/>
+        <View android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_margin="35dp"
+              android:background="@color/colorPrimary"
+        />
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:id="@+id/cond_img"
+        />
+        <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:text="simple text"
+                android:fontFamily="serif"
+                android:id="@+id/name"
+        />
+        <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="simple text"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="serif"
+                android:id="@+id/age"
+        />
+        <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="16sp"
+                android:text="simple text"
+                android:fontFamily="serif"
+                android:id="@+id/desc"
+        />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
